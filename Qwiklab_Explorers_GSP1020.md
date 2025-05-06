@@ -13,7 +13,8 @@
 
 ---
 
-## Go to `order_items.view` file & Replace with this Query
+- ## Go to `order_items.view` file & Replace with this Query
+
 ```
 view: order_items {
   sql_table_name: `cloud-training-demos.looker_ecomm.order_items`
@@ -181,7 +182,8 @@ view: order_items {
 }
 ```
 
-## Go to `users.view` file & Replace with this Query
+- ## Go to `users.view` file & Replace with this Query
+
 ```
 view: users {
   sql_table_name: `cloud-training-demos.looker_ecomm.users`
@@ -284,7 +286,8 @@ view: users {
 }
 ```
 
-## Go to `training_ecommerce.model` file & Replace with this Query
+- ## Go to `training_ecommerce.model` file & Replace with this Query
+
 ```
 connection: "bigquery_public_data_looker"
 
